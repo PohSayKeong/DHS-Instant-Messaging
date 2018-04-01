@@ -1,0 +1,54 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #00F;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav p {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 80px;
+}
+
+#messages{
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 50px;
+    width: 800px;
+    height: auto;
+}
+
+#message1 {
+    background: #C0C0C0;
+    float:left;
+}
+
+#message2 {
+    background: #C0C0C0;
+    margin-top: 50px;
+    float:left;
+    clear: left;
+}
+
+p {
+    text-align: center;
+    font-size: 80px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.confirm {
+    width: 400px;
+    height: 200px;
+    background: green;
+    float: left;
+}
+
+.reject {
+    width: 400px;
+    background: red ;
+    height: 200px;
+    float: right;
+}

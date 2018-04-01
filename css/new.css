@@ -1,0 +1,65 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #00F;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav p {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 80px;
+}
+
+#form{
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 50px;
+    width: 800px;
+    height: auto;
+}
+
+#recipients {
+    background: #C0C0C0;
+    float:left;
+    width: inherit;
+    height: auto;
+}
+
+#title {
+    background: #C0C0C0;
+    margin-top: 50px;
+    width: inherit;
+    float:left;
+    clear: left;
+}
+
+#textBox {
+    background: #C0C0C0;
+    margin-top: 50px;
+    width: inherit;
+    float:left;
+    clear: left;
+}
+
+p {
+    text-align: center;
+    font-size: 80px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+button{
+    margin-left: 25%;
+    background-color: #00F;
+    margin-top: 50px;
+    width: 50%;
+    float:left;
+}
+
+button p{
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 80px;
+}
