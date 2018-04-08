@@ -8,15 +8,12 @@
 .topnav p {
     color: #f2f2f2;
     text-align: center;
-    font-size: 80px;
+    font-size: 8vw;
 }
 
 #messages{
-    position: absolute;
-    left: 50%;
-    margin-left: -400px;
-    margin-top: 50px;
-    width: 800px;
+    margin-top: 2vw;
+    width: 100vw;
     height: auto;
 }
 
@@ -27,29 +24,30 @@
 
 #message2 {
     background: #C0C0C0;
-    margin-top: 50px;
+    margin-top: 2vw;
     float:left;
     clear: left;
 }
 
 p {
     text-align: center;
-    font-size: 80px;
+    font-size: 8vw;
     vertical-align: middle;
     line-height: 50px;
+    margin: 2vw;
     font-family: Lato;
 }
 
 .confirm {
-    width: 400px;
-    height: 200px;
+    width: 48vw;
+    height: auto;
     background: green;
     float: left;
 }
 
 .reject {
-    width: 400px;
+    width: 48vw;
+    height: auto;
     background: red ;
-    height: 200px;
     float: right;
 }
